@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 let mybalance = 100000; //Dollar
 let mypin = 2233;
-console.log(chalk.blue("\n\tWell Come To Izhar ATM Machine\n\t"));
+console.log(chalk.blue("\n\t good to see yoy at our atm\n\t"));
 let pinAnswer = await inquirer.prompt([
     {
         name: "pin",
